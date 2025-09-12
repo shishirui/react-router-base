@@ -1,5 +1,5 @@
 {
-  "name": "my-react-router-app",
+  "name": "react-router-base",
   "private": true,
   "type": "module",
   "scripts": {
