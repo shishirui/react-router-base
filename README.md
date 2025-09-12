@@ -1,87 +1,49 @@
-# Welcome to React Router!
+# React App Framework Example
 
-A modern, production-ready template for building full-stack React applications using React Router.
+This is a clean application framework example based on React Router 7, focused on demonstrating basic page structure and navigation system.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Project Structure
+
+```
+app/
+├── components/
+│   ├── layout/          # Layout components
+│   │   ├── Header.tsx   # Page header
+│   │   ├── Footer.tsx   # Page footer
+│   │   └── Layout.tsx   # Main layout component
+│   └── ui/              # shadcn/ui components
+├── routes/              # Page routes
+│   ├── home.tsx         # Home page
+│   └── about.tsx        # About page
+└── routes.ts            # Route configuration
+```
+
+## Tech Stack
+
+- **React 18** - Frontend framework
+- **React Router 7** - Routing system
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling framework
+- **shadcn/ui** - Component library
+- **Lucide Icons** - Icon library
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- ✅ Modern routing system
+- ✅ Responsive design
+- ✅ Component-based architecture
+- ✅ TypeScript type safety
+- ✅ Unified layout system
+- ✅ Clean page structure
 
-## Getting Started
+## Development Notes
 
-### Installation
+This is a framework example project with clean page content, mainly demonstrating:
+1. Basic page layout structure
+2. Route navigation system
+3. Component-based development approach
+4. Usage of shadcn/ui components
+5. Usage of Lucide icons
 
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+You can add specific business content and functionality based on the existing framework.
